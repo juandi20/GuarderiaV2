@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Mascotas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Registro de Mascotas</h1>
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+    </div>
+    <div>
+        <label for="raza">Raza:</label>
+        <input type="text" id="raza">
+    </div>
+    <div>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad">
+    </div>
+    <div>
+        <label for="peso">Peso:</label>
+        <input type="number" step="0.1" id="peso">
+    </div>
+    <div>
+        <label for="vacunas">Vacunas:</label>
+        <input type="text" id="vacunas">
+    </div>
+    <div>
+        <label for="alergias">Alergias:</label>
+        <input type="text" id="alergias">
+    </div>
+    <div>
+        <label for="medicamentos">Medicamentos:</label>
+        <input type="text" id="medicamentos">
+    </div>
+    <div>
+        <label for="alimentos">Alimentos:</label>
+        <input type="text" id="alimentos">
+    </div>
+    <button id="registrar">Registrar Mascota</button>
+
+    <h2>Lista de Mascotas Registradas</h2>
+    <div id="mascotas-lista"></div>
+
+    <script src="MVC RegisMascota.js"></script>
+</body>
+</html>
